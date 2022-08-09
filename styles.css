@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing-page-hero {
+    background-color: #1F2937;
+    padding: 2% 8%;
+}
+
+div.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
+    align-items: center;
+}
+
+div.nav-logo {
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+div.navbar div.nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 13px;
+    font-size: 18px;
+}
