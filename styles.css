@@ -99,7 +99,13 @@ div.information-section h2 {
 div.information-content {
     display: flex;
     text-align: center;
-    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+div.information-content div.information-box {
+    width: 200px;
 }
 
 div.information-content div.information-box img {
