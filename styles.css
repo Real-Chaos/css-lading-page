@@ -125,3 +125,28 @@ div.quote-section h4 {
     float: right;
     margin-top: 5px;
 }
+
+/* call to action */
+
+div.action-section {
+    padding: 9%;
+}
+
+div.action-section div.action-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 6%;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+}
+
+div.action-section div.action-content button {
+    background: none;
+    border: solid white;
+    border-radius: 7px;
+    padding: 7px 15px;
+    color: white;
+    cursor: pointer;
+}
